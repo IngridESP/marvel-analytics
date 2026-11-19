@@ -1,7 +1,8 @@
 # Marvel Analytics
 
 **Análisis de personajes y superpoderes con Python y Power BI**
-**Ingrid Espinel**
+
+ **Ingrid Espinel**
 
 Soy fan de las películas y series de Marvel y quería explorar con datos algunas preguntas que me surgían al verlas y además a partir de ahora las veré con una perspectiva más amplia. 
 ¿Quien es realmente el personaje más poderoso?, ¿Cuántos y qué poderes tiene cada personaje?, ¿Qué poderes aparecen con más frecuencia?, ¿Son más poderosos los personajes masculinos o los femeninos?, ¿cual es la distribución entre héroes, villanos y personajes neutrales?, ¿Son los villanos tan fuertes como parece?, ¿Qué raza destaca más?...
