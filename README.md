@@ -1,12 +1,15 @@
 # Marvel Analytics
 
-**Análisis de personajes y superpoderes con Python y Power BI**
+**Análisis de personajes y superpoderes con Python y Power BI**.
+  **Ingrid Espinel**
 
- **Ingrid Espinel**
+Soy fan de las películas y series de Marvel y de ahí nació este proyecto. Quería explorar con datos algunas preguntas que me surgían al verlas.
+¿Quien tiene más poderes registrados, Capitana Marvel, Thor o Spider-man?, ¿Quien ganaría en un enfrentamiento?, ¿Qué poderes aparecen con más frecuencia?, ¿Son más poderosos los personajes masculinos o los femeninos?, ¿Cómo se reparten los personajes entre héroes, villanos y neutrales?, ¿Son los villanos tan fuertes como parecen?, ¿Qué raza destaca más?, ¿Que diferencias se observan al comparar el número de poderes por género, bando o raza?...
 
-Soy fan de las películas y series de Marvel y quería explorar con datos algunas preguntas que me surgían al verlas y además a partir de ahora las veré con una perspectiva más amplia. 
-¿Quien es realmente el personaje más poderoso?, ¿Cuántos y qué poderes tiene cada personaje?, ¿Qué poderes aparecen con más frecuencia?, ¿Son más poderosos los personajes masculinos o los femeninos?, ¿cual es la distribución entre héroes, villanos y personajes neutrales?, ¿Son los villanos tan fuertes como parece?, ¿Qué raza destaca más?...
+También me gustan los personajes de DC Comics, así que quise situar a ambas editoriales al comienzo del informe para poner un contexto, ya que he notado que personas de mi entorno no tienen muy claro los personajes y sus universos o editoriales.
+Este proyecto me dio otra forma de mirar el universo Marvel y la próxima vez que vea una película, sé que me fijare en detalles que quizás antes me habrían pasado desapercibidos.
 
+![Vista general de Marvel Analytics en Power BI](images/marvel-general.png)
 
 ## ⚡ Cómo fue evolucionando el proyecto
 
@@ -47,6 +50,12 @@ En Power BI también preparé las tablas auxiliares `base_heatmap`, `correlacion
 | Buscador interactivo | Selección y comparación de personajes mediante el recuento de poderes y sus atributos. |
 | Conclusiones | Síntesis de los principales resultados del informe. |
 
+![Comparativa de poderes en Marvel Analytics](images/comparativa-poderes.png)
+
+![Buscador de personajes de Marvel Analytics](images/buscador-interactivo.png)
+
+[Ver todas las capturas del informe](images/)
+
 ## 🔎 Hallazgos generales
 
 - En la vista general, 102 personajes (68%) están clasificados como héroes, 39 (26%) como villanos y 10 (7%) como neutrales.
@@ -62,7 +71,7 @@ Los rankings se basan en el número de poderes registrados en la muestra. Las ca
 
 ## 🛠️ Tecnologías utilizadas
 
-Utilicé **Python** y **Jupyter Notebook** para explorar y limpiar datos. Para preparar los archivos CSV y las primeras visualizaciones con **Pandas**, **Numpy** y **Matpltlib**. Con **ipywidgets** cree un prototipo inicial del buscador de personajes. En **Power BI Desktop** con **Power Query**, prepare los datos, contruí el modelo y utilice **DAX** para calcular indicadores, porcentajes, rankings.En el informe final incorporé filtros, comparativas y un buscador interactivo.
+He utilizado **Python** y **Jupyter Notebook** para explorar y limpiar datos. Para preparar los archivos CSV y las primeras visualizaciones utilice **Pandas**, **Numpy** y **Matpltlib**. Con **ipywidgets** cree un prototipo inicial del buscador de personajes. En **Power BI Desktop** con **Power Query**, prepare los datos, construí el modelo y utilice **DAX** para calcular indicadores, porcentajes, rankings. En el informe final incorporé filtros, comparativas y un buscador interactivo.
 
 ## 🛠️ Retos superados
 
